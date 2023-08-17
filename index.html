@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="Name">My Portfolio</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#Skills">SKILLS</a></li>
+                <li><a href="#Certifications">Certifications</a></li>
+                <!-- <li><a href="#">Contact</a></li> -->
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamberger-nav">
+        <div class="Name">Name</div>
+        <div class="hamberger-menu">
+            <div class="hamberger-icons" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#" onclick="toggleMenu()">HOME</a></li>
+                <li><a href="#" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="pic.png" alt="Picture">
+        </div>
+        <div class="section-01-text">
+            <p class="section-01-p1">Hello I'm</p>
+            <h1 class="title">Gopi Varun</h1>
+            <p class="section-01-p2" style="margin-bottom: 20px;">Studying in Vishnu Institute of Technology</p>
+            <a class="lkin" href="https://www.linkedin.com/in/chennaparapu-gopi-varun-ab1ba3250/"><img
+                    src="linkedin-icon.png" alt="Linked in"></a>
+            <a class="git" href="https://github.com/Varun-531"><img src="github-icon.png" alt="github-icon"></a>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-01-p1"> Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img src="pic2.png" alt="About pic" class="pic2">
+            </div>
+            <div class="about-text">
+                <div class="about-1">
+                    <div class="exp ab1">
+                        <img class="achi" src="achi.png" alt="achivements">
+                        <h1 class="about-h1">Experience</h1>
+                        <p class="about-p1">Fresher</p>
+                    </div>
+                    <div class="education ab1">
+                        <img class="books" src="books.png" alt="books">
+                        <h1 class="about-h1">Education</h1>
+                        <p class="about-p1">B-tech</p>
+                    </div>
+                </div>
+                <p class="about-2">
+                    During my time at Vishnu Institute of Technology, I have been actively involved in various academic
+                    and extracurricular activities, which have helped me develop a well-rounded skill set. I am
+                    passionate about learning and constantly strive to stay updated with the latest developments in my
+                    field. The internship I completed not only gave me practical insights into the industry but also
+                    honed my problem-solving and teamwork abilities.
+                    Looking forward, I am excited about the opportunities that lie ahead. I am eager to apply the
+                    knowledge and skills I've acquired throughout my education and internship to contribute effectively
+                    in a professional setting. With a strong foundation and a determined attitude, I am committed to
+                    making a positive impact in my chosen field and continuously growing as a professional.</p>
+            </div>
+        </div>
+    </section>
+    <section id="Skills">
+        <p class="section-01-p1"> Explore My</p>
+        <h1 class="title" style="margin-bottom: 80px;">Skills</h1>
+        <div class="Skills-container">
+            <div class="Skills-01">
+                <article>
+                    <img class="tick" src="Certifed.png" alt="tick">
+                    <div class="skills-01">
+                        <h3>HTML</h3>
+                    </div>
+                </article>
+                <article>
+                    <img class="tick" src="Certifed.png" alt="tick">
+                    <div class="skills-01">
+                        <h3>CSS</h3>
+                    </div>
+                </article>
+                <article>
+                    <img class="tick" src="Certifed.png" alt="tick">
+                    <div class="skills-01">
+                        <h3>Java Script</h3>
+                    </div>
+                </article>
+                <article>
+                    <img class="tick" src="Certifed.png" alt="tick">
+                    <div class="skills-01">
+                        <h3>Java</h3>
+                    </div>
+                </article>
+                <article>
+                    <img class="tick" src="Certifed.png" alt="tick">
+                    <div class="skills-01">
+                        <h3>C</h3>
+                    </div>
+                </article>
+                <article>
+                    <img class="tick" src="Certifed.png" alt="tick">
+                    <div class="skills-01">
+                        <h3>Python</h3>
+                    </div>
+                </article>
+                <article>
+                    <img class="tick" src="Certifed.png" alt="tick">
+                    <div class="skills-01">
+                        <h3>DSA</h3>
+                    </div>
+                </article>
+            </div>
+            <img src="Skills.png" alt="Skills">
+        </div>
+
+    </section>
+    <section id="Certifications">
+        <p style="text-align: center;" class="section-01-p1">My</p>
+        <h1 class="title" style="margin-bottom: 80px;text-align: center;">Certifications</h1>
+        <div class="cert-container">
+            <img src="Certifications.png" alt="Cert">
+            <div class="Cert-opt">
+                <div class="cert">
+                    <div class="cert-icon"><img src="Cert-icon.png" alt="certificate"></div>
+                    <div class="cert-text">
+                        <h3 class="cert-h3">AI-ML Virtual Internship</h3>
+                        <p class="cert-p">From AICTE</p>
+                    </div>
+                </div>
+                <div class="cert">
+                    <div class="cert-icon"><img src="Cert-icon.png" alt="certificate"></div>
+                    <div class="cert-text">
+                        <h3 class="cert-h3">Data Science with Python</h3>
+                        <p class="cert-p">From Coincent</p>
+                    </div>
+                </div>
+                <div class="cert">
+                    <div class="cert-icon"><img src="Cert-icon.png" alt="certificate"></div>
+                    <div class="cert-text">
+                        <h3 class="cert-h3">Introduction to Cybersecurity</h3>
+                        <p class="cert-p">From Cisco</p>
+                    </div>
+                </div>
+                <div class="cert">
+                    <div class="cert-icon"><img src="Cert-icon.png" alt="certificate"></div>
+                    <div class="cert-text">
+                        <h3 class="cert-h3">Certificate of Excellence - Java</h3>
+                        <p class="cert-p">From Coding Ninjas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
